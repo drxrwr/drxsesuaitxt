@@ -68,12 +68,19 @@ button:hover {
   color: #e74c3c;
 }
 
-.download-link {
-  display: inline-block;
-  margin-top: 5px;
-  background: #2ecc71;
-  color: white;
+.download-btn {
   padding: 5px 10px;
+  border: none;
   border-radius: 5px;
-  text-decoration: none;
+  cursor: pointer;
+}
+
+.download-btn.success {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.download-btn.error {
+  background-color: #e74c3c;
+  color: white;
 }
